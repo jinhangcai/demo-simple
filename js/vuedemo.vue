@@ -1,0 +1,1 @@
+<div id="app">你已经在这花了 {{ counter }} 秒。</div>

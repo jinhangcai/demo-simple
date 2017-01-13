@@ -1,0 +1,37 @@
+doctype html
+html
+    head
+        title #{title}
+    body
+    //      单行注释//  多行注释//内容另起一行留空格   不输出注释//-
+    //      循环each val[,key] in obj     each obj in objs        each val,key in obj
+    //      判断-if
+    div 内容 <a href='javascript:;'>(href='javascript:;')你好</a>
+    input
+    -if(data.data.bgColor + data.data.bgImg == 1)
+        p #{data.data.bgColor + data.data.bgImg}
+    -else
+        p #{data.data.bgColor + data.data.bgImg + 'aaaaaa'}
+    ul
+        -for(var i=0;i<data.data.goodsList.length;i++)
+            li #{data.data.goodsList[i].goodsImgUrl}
+    p #{1+2}
+    p 你好<b>好的</b>
+    a(href='javascript:;')你好
+    p.btn#btn
+    p='Welcome to hangzhou'
+    p!='Welcome to <b>hangzhou</b>'
+    -var name = 'cjh'
+    p my name is #{name}
+    -var objs = {'name':'cjh','age':24,'local':'hz'}
+    ul
+        each val ,key in objs
+            li #{key}:#{val}
+    ul
+        each obj in objs
+            li #{obj}
+    ul
+        -for(var i=0;i<3;i++)
+            li abc
+    script.
+        console.log(1)

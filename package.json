@@ -1,0 +1,37 @@
+{
+  "name": "cjh",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "commander": "^2.9.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "log4js": "^1.0.1",
+    "multer": "^1.2.0",
+    "request": "^2.79.0",
+    "vue": "^2.1.3",
+    "vue-route": "^1.5.1",
+    "vue-router": "^2.1.1",
+    "vue-server-renderer": "^2.1.3"
+  },
+  "devDependencies": {
+    "fis-parser-jdists": "^1.0.8",
+    "fis3-deploy-local-deliver": "^1.0.0",
+    "fis3-hook-amd": "^0.2.0",
+    "fis3-hook-commonjs": "^0.1.25",
+    "fis3-packager-deps-pack": "^0.1.2",
+    "fis3-parser-stylus": "^0.1.1",
+    "fis3-parser-translate-es6": "^1.0.1",
+    "fis3-postpackager-loader": "^2.1.4",
+    "fis3-preprocessor-js-require-css": "^0.1.1",
+    "fis3-preprocessor-js-require-file": "^0.1.3"
+  },
+  "scripts": {
+    "test": "fis3 release -w",
+    "test-local": "fis3 release local -cw"
+  },
+  "author": "",
+  "license": "ISC"
+}

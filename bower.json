@@ -1,0 +1,24 @@
+{
+  "name": "cjh",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "cai jinhang <654870345@qq.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "requirejs": "^2.3.2",
+    "mockjs": "^1.0.0"
+  }
+}
